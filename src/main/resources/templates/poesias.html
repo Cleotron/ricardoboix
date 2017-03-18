@@ -1,0 +1,25 @@
+<html xmlns:th="http://www.thymeleaf.org">
+
+	<body>
+		<div th:include="base :: copy"></div>
+			
+		<div class="container">
+    	<div class="row">
+		<div class="col-md-12">
+		<ul class="nav nav-tabs">
+ 			<li role="presentation"><a href="/" id="pestaña">Home</a></li>
+  			<li role="presentation"><a href="/galeria" id="pestaña">Galería de arte</a></li>
+  			<li role="presentation" class="active"><a href="/poesias" id="pestaña">Poesías</a></li>
+  			<li role="presentation"><a href="/relatos" id="pestaña">Relatos</a></li>
+  			<li role="presentation"><a href="/canciones" id="pestaña">Canciones</a></li>
+		</ul>
+		</div>
+		</div>
+		</div>
+		<br/>
+		<br/>
+		<p th:each="poema : ${poemas}"><div style="text-align: center"><a href = "poesias.html" 
+		th:href = "@{/poesias/{titulo}(titulo=${poema.titulo})}" 
+		th:text = "${poema.titulo}"> </a> </div></p>
+	</body>
+</html>

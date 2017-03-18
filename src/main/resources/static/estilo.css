@@ -1,0 +1,72 @@
+	#titulo{
+		color: white;
+		font-family:  'Mr Dafoe', cursive;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 500px;
+		font-size: 500%;
+		
+	}
+	
+	#portada { 
+		
+	    margin: 0;
+	    background: url('cuadrofondo.jpg');
+	    background-position: center;
+	    background-size: 100% auto;
+	    background-repeat: no-repeat;
+		background-color: #c18c60;
+		color: white;
+		text-align: center;
+	}
+	
+	#textopoesia{
+		text-align: center;
+		margin-bottom: 10em;
+		font-weight: bold;
+		
+	}
+	
+	#textorelato{
+		margin-left: 5em;
+		margin-right: 5em;
+		margin-bottom: 10em;
+		font-weight: bold;
+		
+	}
+	
+	#pestaña{
+		color: white;
+	}
+	h1{
+		color: black;
+		font-family: serif;
+		text-align: center;
+	}
+	
+	h2{
+		color:black;
+		font-family: serif;
+		text-align: center;
+	}
+	
+
+	body{
+		background-color:#ff8b51;
+		/*#FBF191*/
+		/*#97D9BA;*/
+	}
+
+	a{
+		color: black;
+		font-weight: bold;
+	
+	}
+	
+	.nav-tabs > li > a:hover{
+		background-color: #ea653c !important;
+	}
+	.nav-tabs > li.active > a{
+		background-color: #ea653c !important;  
+	} 
+	
