@@ -22,7 +22,6 @@
 	
 	#textopoesia{
 		text-align: center;
-		margin-bottom: 10em;
 		font-weight: bold;
 		
 	}
@@ -30,7 +29,6 @@
 	#textorelato{
 		margin-left: 5em;
 		margin-right: 5em;
-		margin-bottom: 10em;
 		font-weight: bold;
 		
 	}
@@ -42,6 +40,11 @@
 		color: black;
 		font-family: serif;
 		text-align: center;
+	}
+	
+	#button{
+		text-align: center;
+		margin-bottom: 10em;
 	}
 	
 	h2{

@@ -3,6 +3,9 @@
 	<div th:include="base :: copy"></div>
 	<h2><span th:text="${relato.titulo}"> Titulorandom </span></h2><br/><br/>
 	<p id="textorelato"><span th:utext="${#strings.replace(#strings.escapeXml(relato.texto),'&#10;','&lt;br/&gt;')}"> Blablabla </span></p>
+	<br/>
+	<div id="button">
+	<a href="/relatos" class="btn btn-default active" role="button">Volver a Relatos</a></div>
 	</body>
 
 </html>
