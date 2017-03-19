@@ -39,6 +39,15 @@ public class RicardoboixApplication {
 		return new CancionesController();
 	}
 	
+	@Bean 
+	public RestringidoController restringidoController(){
+		return new RestringidoController();
+	}
+	@Bean
+	public LoginController loginController(){
+		return new LoginController();
+	}
+	
 	public static void main(String[] args) {
 		SpringApplication.run(RicardoboixApplication.class, args);
 	}
