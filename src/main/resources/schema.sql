@@ -5,5 +5,5 @@ CREATE TABLE poemas(
 
 CREATE TABLE relatos(
 	titulo varchar(100)PRIMARY KEY,
-	texto VARCHAR (30000) NOT NULL,
+	texto VARCHAR (36000) NOT NULL,
 );
