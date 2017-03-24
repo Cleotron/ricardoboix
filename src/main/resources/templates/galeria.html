@@ -16,6 +16,8 @@
 		</div>
 		</div>
 		<br/>
-		<p>Aqui van fotos</p>
+		<p th:each="id : ${ids}">
+			<img id="cuadro" th:src="@{/foto/{id}(id=${id})}"/>
+		</p>
 	</body>
 </html>

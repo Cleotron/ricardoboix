@@ -26,7 +26,7 @@ public class RicardoboixApplication {
 	
 	@Bean
 	public GaleriaController galeriaController(){
-		return new GaleriaController();
+		return new GaleriaController(jdbcTemplate);
 	}
 
 	@Bean
@@ -47,6 +47,16 @@ public class RicardoboixApplication {
 	public LoginController loginController(){
 		return new LoginController();
 	}
+	
+	@Bean
+	public UploadController uploadController(){
+		return new UploadController(jdbcTemplate);
+	}
+	
+	@Bean
+	public FotoController fotoController(){
+		return new FotoController(jdbcTemplate);
+	}	
 	
 	public static void main(String[] args) {
 		SpringApplication.run(RicardoboixApplication.class, args);
