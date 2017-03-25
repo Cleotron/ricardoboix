@@ -22,15 +22,11 @@
 	
 	#textopoesia{
 		text-align: center;
-		font-weight: bold;
-		
 	}
 	
 	#textorelato{
 		margin-left: 5em;
 		margin-right: 5em;
-		font-weight: bold;
-		
 	}
 	
 	#pestaña{
@@ -45,7 +41,7 @@
 	#cuadro{
 		display: block;
 		margin: 0 auto;
-		width: 40%;
+		width: 33%;
 		padding: 10px;
 	}
 	
@@ -79,5 +75,9 @@
 	}
 	.nav-tabs > li.active > a{
 		background-color: #ea653c !important;  
-	} 
+	}
 	
+	p {
+		font-weight: bold;
+	}
+
