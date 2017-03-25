@@ -1,0 +1,14 @@
+Para construir el contenedor Docker:
+
+$ docker build -t ricardoboix .
+
+Para ejecutar el contenedor Docker:
+
+$ docker run --rm -p 8080:8080 -v $(pwd):/data ricardoboix \
+      java -Djava.security.egd=file:/dev/urandom -jar target/ricardoboix-0.0.1-SNAPSHOT.jar \
+      --spring.datasource.url=jdbc:h2:/data/ricardoboix.h2 \
+      --spring.datasource.initialize=false
+
+spring.datasource.initialize=false previene que se inicialice la
+aplicación, no especificarlo la primera vez para que se cree el esquema
+de datos inicial.
