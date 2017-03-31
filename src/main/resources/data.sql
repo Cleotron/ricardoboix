@@ -1634,4 +1634,8 @@ Aquellas circunstancias cerraron definitivamente las puertas que tanto empeño t
 
 	Podría contar mis vivencias de aquella etapa posterior… pero eso sería otra historia.');
 	
+	INSERT INTO comentarios(nombre, texto)
+	VALUES ('Ana', 'Probando, probando...');
 	
+	INSERT INTO comentarios(nombre, texto)
+	VALUES ('Alex', 'Otro comentario');
