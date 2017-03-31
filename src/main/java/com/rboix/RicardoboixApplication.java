@@ -35,8 +35,8 @@ public class RicardoboixApplication {
 	}
 	
 	@Bean 
-	public CancionesController cancionesController(){
-		return new CancionesController();
+	public LibrodevisitasController librodevisitasController(){
+		return new LibrodevisitasController(jdbcTemplate);
 	}
 	
 	@Bean 
@@ -57,6 +57,11 @@ public class RicardoboixApplication {
 	public FotoController fotoController(){
 		return new FotoController(jdbcTemplate);
 	}	
+	
+	@Bean
+	public ComentarioController comentarioController(){
+		return new ComentarioController(jdbcTemplate);
+	}
 	
 	public static void main(String[] args) {
 		SpringApplication.run(RicardoboixApplication.class, args);

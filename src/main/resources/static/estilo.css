@@ -45,6 +45,18 @@
 		padding: 10px;
 	}
 	
+	#indicerelatos{
+		width: 100%;
+		text-align: center;
+		position: absolute;
+		bottom: 0px;
+	}
+	#indicepoesias{
+		width:20%;
+		float: right;
+		margin-right:10%;
+	}
+	
 	h1{
 		color: black;
 		font-family: serif;
@@ -55,6 +67,11 @@
 		color:black;
 		font-family: serif;
 		text-align: center;
+	}
+	
+	#comentarios{
+		margin-left: 5em;
+		margin-right: 5em;
 	}
 	
 

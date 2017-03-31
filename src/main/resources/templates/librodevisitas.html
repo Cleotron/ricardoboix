@@ -1,0 +1,52 @@
+<html xmlns:th="http://www.thymeleaf.org">
+	<body>
+		<div th:include="base :: copy"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="nav nav-tabs">
+						<li role="presentation"><a href="/" id="pestaña">Home</a></li>
+						<li role="presentation"><a href="/galeria" id="pestaña">Galería de arte</a></li>
+						<li role="presentation"><a href="/poesias" id="pestaña">Poesías</a></li>
+						<li role="presentation"><a href="/relatos" id="pestaña">Relatos</a></li>
+						<li role="presentation" class="active"><a href="/librodevisitas" id="pestaña">Libro de visitas</a></li>
+					</ul>
+					<br/>
+					<br/>
+					<p>Delineante de profesión y artista de corazón, Ricardo Boix aprovechó su jubilación para
+					dedicarse plenamente a su faceta artística.</p>
+					
+					<p>Pintor, escritor y cantante, hemos recopilado en esta web una muestra de sus creaciones.</p>
+					<br/>
+					<p>Si desea dejar algún comentario al artista, puede utilizar nuestro libro de visitas. </p>
+					<br/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4" >
+				<form method="POST" th:action="@{/comentario}">
+					<div class="form-group">
+						<label for="Nombre">Nombre</label>
+						<input type="nombre" class="form-control" name="nombre" />
+					</div>
+					<div class="form-group">
+						<label for="exampleTextarea">Texto</label>
+						<textarea class="form-control" name="texto" rows="3"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Enviar</button>
+				</form>
+				</div>
+			</div>
+		</div>
+		<br/>
+		<p style="text-align: center"> ----------------------------------------------------- </p>
+		<br/>
+		<br/>
+		<p th:each="comentario : ${comentarios}">
+			<div id="comentarios">
+				<p style="font-style: italic" th:text= "${comentario.nombre}"></p>
+				<p th:text= "${comentario.texto}"></p><br/>
+			</div>
+		</p>
+	</body>
+</html>

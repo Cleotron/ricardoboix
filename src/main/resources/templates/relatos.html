@@ -10,15 +10,18 @@
   			<li role="presentation"><a href="/galeria" id="pestaña">Galería de arte</a></li>
   			<li role="presentation"><a href="/poesias" id="pestaña">Poesías</a></li>
   			<li role="presentation" class="active"><a href="/relatos" id="pestaña">Relatos</a></li>
-  			<li role="presentation"><a href="/canciones" id="pestaña">Canciones</a></li>
+  			<li role="presentation"><a href="/librodevisitas" id="pestaña">Libro de visitas</a></li>
 		</ul>
 		</div>
 		</div>
 		</div>
 		<br/>
 		<br/>
-		<p th:each="relato : ${relatos}"><div style="text-align: center"><a href = "relatos.html" 
-		th:href = "@{/relatos/{titulo}(titulo=${relato.titulo})}" 
-		th:text = "${relato.titulo}"> </a> </div></p>
+		<p th:each="relato : ${relatos}">
+			<div style="text-align: center">
+				<a href = "relatos.html" th:href = "@{/relatos/{titulo}(titulo=${relato.titulo})}" th:text = "${relato.titulo}"></a>
+			</div>
+		</p>
+		<img id= "indicerelatos" src="/skyline.png"/>
 	</body>
 </html>

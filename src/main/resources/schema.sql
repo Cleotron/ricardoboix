@@ -12,3 +12,9 @@ CREATE TABLE fotos(
 	id serial PRIMARY KEY,
 	foto BLOB,
 );
+
+CREATE TABLE comentarios(
+	id serial PRIMARY KEY,
+	nombre varchar(100) NOT NULL,
+	texto varchar(10000) NOT NULL,
+);
