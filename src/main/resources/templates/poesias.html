@@ -4,23 +4,36 @@
 		<div th:include="base :: copy"></div>
 			
 		<div class="container">
-    	<div class="row">
-		<div class="col-md-12">
-		<ul class="nav nav-tabs">
- 			<li role="presentation"><a href="/" id="pestaña">Home</a></li>
-  			<li role="presentation"><a href="/galeria" id="pestaña">Galería de arte</a></li>
-  			<li role="presentation" class="active"><a href="/poesias" id="pestaña">Poesías</a></li>
-  			<li role="presentation"><a href="/relatos" id="pestaña">Relatos</a></li>
-  			<li role="presentation"><a href="/librodevisitas" id="pestaña">Libro de visitas</a></li>
-		</ul>
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="nav nav-tabs">
+						<li role="presentation"><a href="/" id="pestaña">Home</a></li>
+						<li role="presentation"><a href="/galeria" id="pestaña">Galería de arte</a></li>
+						<li role="presentation" class="active"><a href="/poesias" id="pestaña">Poesías</a></li>
+						<li role="presentation"><a href="/relatos" id="pestaña">Relatos</a></li>
+						<li role="presentation"><a href="/librodevisitas" id="pestaña">Libro de visitas</a></li>
+					</ul>
+				</div>
+			</div>
+			<br/>
+			<br/>
+			<div class="row">
+				<div class="col-md-2">
+					<img src="/adorno_l.png"/>
+					<img src="/adorno_l.png"/>
+				</div>
+				<div class="col-md-8">
+					<p th:each="poema : ${poemas}">
+						<div style="text-align: center">
+							<a href="poesias.html" th:href = "@{/poesias/{titulo}(titulo=${poema.titulo})}" th:text = "${poema.titulo}"></a>
+						</div>
+					</p>
+				</div>
+				<div class="col-md-2">
+					<img src="/adorno_r.png"/>
+					<img src="/adorno_r.png"/>
+				</div>
+			</div>
 		</div>
-		</div>
-		</div>
-		<br/>
-		<br/>
-		<p th:each="poema : ${poemas}"><div style="text-align: center"><a href = "poesias.html" 
-		th:href = "@{/poesias/{titulo}(titulo=${poema.titulo})}" 
-		th:text = "${poema.titulo}"> </a> </div></p>
-		<img id= "indicepoesias" src="/pajaro.jpg"/>
 	</body>
 </html>
