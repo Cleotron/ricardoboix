@@ -10,11 +10,11 @@
 	
 	#portada { 
 		
-	    margin: 0;
-	    background: url('cuadrofondo.JPG');
-	    background-position: center;
-	    background-size: 100% auto;
-	    background-repeat: no-repeat;
+		margin: 0;
+		background: url('cuadrofondo.JPG');
+		background-position: center;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
 		background-color: #c18c60;
 		color: white;
 		text-align: center;
@@ -51,12 +51,7 @@
 		position: absolute;
 		bottom: 0px;
 	}
-	#indicepoesias{
-		width:20%;
-		float: right;
-		margin-right:10%;
-	}
-	
+
 	h1{
 		color: black;
 		font-family: serif;
@@ -97,4 +92,4 @@
 	p {
 		font-weight: bold;
 	}
-
+	
