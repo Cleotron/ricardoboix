@@ -41,7 +41,7 @@ public class RicardoboixApplication {
 	
 	@Bean 
 	public RestringidoController restringidoController(){
-		return new RestringidoController();
+		return new RestringidoController(jdbcTemplate);
 	}
 	@Bean
 	public LoginController loginController(){
@@ -63,6 +63,10 @@ public class RicardoboixApplication {
 		return new ComentarioController(jdbcTemplate);
 	}
 	
+	@Bean
+	public AprobarComentarioController aprobarComentarioController(){
+		return new AprobarComentarioController(jdbcTemplate);
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(RicardoboixApplication.class, args);
 	}

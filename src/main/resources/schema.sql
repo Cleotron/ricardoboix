@@ -17,4 +17,5 @@ CREATE TABLE comentarios(
 	id serial PRIMARY KEY,
 	nombre varchar(100) NOT NULL,
 	texto varchar(10000) NOT NULL,
+	aprobado BOOLEAN NOT NULL DEFAULT FALSE,
 );

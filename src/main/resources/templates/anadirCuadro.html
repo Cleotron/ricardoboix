@@ -1,9 +1,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
-
 <body>
 	<div th:include="base :: copy"></div>
-	<p> Aquí se suben los cuadros</p>
-	
+		<p> Aquí se suben los cuadros</p>
 		<form th:action="@{/upload}" method="post" enctype="multipart/form-data">
 			<input type="file" name="foto"/>
 			<input type="submit"/>

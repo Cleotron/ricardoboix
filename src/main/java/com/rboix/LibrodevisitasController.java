@@ -16,7 +16,7 @@ public class LibrodevisitasController {
 	@RequestMapping("/librodevisitas")
 		String comentarios(ModelMap model){
 		model.addAttribute("comentarios",
-				jdbcTemplate.queryForList("select * from comentarios"));
+				jdbcTemplate.queryForList("select * from comentarios where aprobado"));
 			return "librodevisitas";
 		}
 	
