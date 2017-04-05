@@ -40,8 +40,6 @@
 	
 	#cuadro{
 		display: block;
-		/* margin: 0 auto; 
-		padding: auto; */
 		width: 100%;
 	}
 	
@@ -91,10 +89,4 @@
 	
 	p {
 		font-weight: bold;
-	}
-	.container-fluid {
-		padding-right:0;
-		padding-left:0;
-		margin-right:auto;
-		margin-left:auto
 	}
