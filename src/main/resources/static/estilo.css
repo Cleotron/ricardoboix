@@ -40,9 +40,9 @@
 	
 	#cuadro{
 		display: block;
-		margin: 0 auto;
-		width: 33%;
-		padding: 10px;
+		/* margin: 0 auto; 
+		padding: auto; */
+		width: 100%;
 	}
 	
 	#indicerelatos{
@@ -92,4 +92,9 @@
 	p {
 		font-weight: bold;
 	}
-	
+	.container-fluid {
+		padding-right:0;
+		padding-left:0;
+		margin-right:auto;
+		margin-left:auto
+	}

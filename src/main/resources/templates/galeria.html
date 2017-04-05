@@ -12,12 +12,18 @@
 						<li role="presentation"><a href="/relatos" id="pestaña">Relatos</a></li>
 						<li role="presentation"><a href="/librodevisitas" id="pestaña">Libro de visitas</a></li>
 					</ul>
+					<br/>
+					<br/>
+				</div>
+			</div>
+			<div class="row">
+				<div  class= "col-md-6 col-md-offset-3">
+					<p th:each="id : ${ids}">
+						<img id="cuadro" th:src="@{/foto/{id}(id=${id})}"/>
+						<br/>
+					</p>
 				</div>
 			</div>
 		</div>
-		<br/>
-		<p th:each="id : ${ids}">
-			<img id="cuadro" th:src="@{/foto/{id}(id=${id})}"/>
-		</p>
 	</body>
 </html>
