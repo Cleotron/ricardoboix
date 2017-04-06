@@ -1,48 +1,24 @@
-	@media (min-width: 1200px){
-		#titulo{
-			color: white;
-			font-family:  'Mr Dafoe', cursive;
-			text-align: center;
-			line-height: 500px;
-			font-size: 500%;
-		}
+	#titulo{
+		color: white;
+		font-family:  'Mr Dafoe', cursive;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 500px;
+		font-size: 500%;
 		
 	}
-	@media (max-width: 480px){
-		#titulo{
-			color: #A95205;
-			font-family:  'Mr Dafoe', cursive;
-			text-align: center;
-			line-height: 300%;
-			font-size: 400%;
-			
-		}
-	}
 	
-	@media (min-width: 1200px) {
-		#portada { 
-			
-			margin: 0;
-			background: url('fondoescrit.JPG');
-			background-position: center;
-			background-size: 100% auto;
-			background-repeat: no-repeat;
-			background-color: #F9EB95;
-			color: white;
-			text-align: center;
-		}
+	#portada { 
+		
+		margin: 0;
+		background: url('cuadrofondo.JPG');
+		background-position: center;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		background-color: #c18c60;
+		color: white;
+		text-align: center;
 	}
-	@media (max-width: 480px) {
-		#portada {
-			background-color: #F9EB95;
-			background-image: url('fondomovil.jpg');
-			background-size: 100% auto;
-			background-repeat: no-repeat;
-			background-position: bottom;
-		}
-	}
-
-
 	
 	#textopoesia{
 		text-align: center;
@@ -54,7 +30,7 @@
 	}
 	
 	#pestaña{
-		color: black;
+		color: white;
 	}
 	
 	#button{
@@ -105,10 +81,10 @@
 	}
 	
 	.nav-tabs > li > a:hover{
-		background-color: #ff8b51 !important;
+		background-color: #ea653c !important;
 	}
 	.nav-tabs > li.active > a{
-		background-color: #ff8b51 !important;  
+		background-color: #ea653c !important;  
 	}
 	
 	p {
