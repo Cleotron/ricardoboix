@@ -24,4 +24,11 @@ public class RestringidoController {
 		return "aprobarComentarios";
 		
 	}
+	
+	@RequestMapping("/restringido/borrarcuadros")
+	String borrarCuadros(ModelMap model) {
+		model.addAttribute("cuadros",
+				jdbcTemplate.queryForList("select * from fotos"));
+		return "borrarCuadro";
+	}
 }

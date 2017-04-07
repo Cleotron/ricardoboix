@@ -67,6 +67,12 @@ public class RicardoboixApplication {
 	public AprobarComentarioController aprobarComentarioController(){
 		return new AprobarComentarioController(jdbcTemplate);
 	}
+	
+	@Bean
+	public BorrarCuadroController borrarCuadroController(){
+		return new BorrarCuadroController(jdbcTemplate);
+	}
+		
 	public static void main(String[] args) {
 		SpringApplication.run(RicardoboixApplication.class, args);
 	}
