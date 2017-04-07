@@ -1,6 +1,5 @@
 package com.rboix;
 
-import java.util.Arrays;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
