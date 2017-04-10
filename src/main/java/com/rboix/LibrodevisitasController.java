@@ -13,6 +13,13 @@ public class LibrodevisitasController {
 	public LibrodevisitasController(JdbcTemplate jdbcTemplate) {
 		this.jdbcTemplate = jdbcTemplate;
 	}
+	
+	@RequestMapping("/comentario")
+	String guardarComentario(String nombre,String texto){
+		jdbcTemplate.update("insert into comentarios (nombre, texto) values (?,?)", nombre, texto);
+	return "redirect:/librodevisitas";
+	}
+	
 	@RequestMapping("/librodevisitas")
 		String comentarios(ModelMap model){
 		model.addAttribute("comentarios",

@@ -47,11 +47,6 @@ public class RicardoboixApplication {
 	public LoginController loginController(){
 		return new LoginController();
 	}
-	
-	@Bean
-	public ComentarioController comentarioController(){
-		return new ComentarioController(jdbcTemplate);
-	}
 		
 	public static void main(String[] args) {
 		SpringApplication.run(RicardoboixApplication.class, args);
