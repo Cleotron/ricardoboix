@@ -54,11 +54,6 @@ public class RicardoboixApplication {
 	}
 	
 	@Bean
-	public FotoController fotoController(){
-		return new FotoController(jdbcTemplate);
-	}	
-	
-	@Bean
 	public ComentarioController comentarioController(){
 		return new ComentarioController(jdbcTemplate);
 	}
