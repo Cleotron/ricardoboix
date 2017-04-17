@@ -113,14 +113,20 @@
 		text-align: center;
 		margin-bottom: 10em;
 	}
-	
-	.cuadro{
-		display: block;
-		width: 100%;
+	@media (min-width: 1200px){
+		.cuadro{
+			max-height: 200px;
+			min-height: 200px;
+			margin-right: 10px;
+			margin-bottom: 15px;
+		}
 	}
-	.galeria{
-		display: block;
-		width: 100%;
+	@media (max-width: 1200px) {
+		.cuadro{
+			display: block;
+			width: 100%;
+			margin-bottom: 8px;
+		}
 	}
 	
 	#indicerelatos{
@@ -150,8 +156,9 @@
 
 	body{
 		background-color:#ff8b51;
-		/*#FBF191*/
-		/*#97D9BA;*/
+	}
+	.bodylibro{
+		background-color:#ace5f9;
 	}
 
 	a{
@@ -165,6 +172,12 @@
 	}
 	.nav-tabs > li.active > a{
 		background-color: #ff8b51 !important;  
+	}
+	.bodylibro	.nav-tabs > li > a:hover{
+		background-color: #257adb !important;
+	}
+	.bodylibro .nav-tabs > li.active > a{
+		background-color: #257adb !important;  
 	}
 	
 	p {
