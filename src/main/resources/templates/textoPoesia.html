@@ -2,7 +2,7 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	</head>
-	<body>
+	<body class= "bodylibro">
 		<div th:include="base :: copy"></div>
 		<h2><span th:text="${poema.titulo}"> Titulorandom </span></h2><br/><br/>
 		<p id="textopoesia"><span th:utext="${#strings.replace(#strings.escapeXml(poema.texto),'&#10;','&lt;br/&gt;')}"> Blablabla </span></p>
