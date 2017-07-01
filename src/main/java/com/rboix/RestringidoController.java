@@ -55,7 +55,7 @@ public class RestringidoController {
 		for(int i = 0; i < comentarios.length; i++){
 			jdbcTemplate.update("update comentarios set aprobado = true where id = ?",  comentarios[i]);
 		}
-		return "redirect:/librodevisitas";
+		return "redirect:/restringido/aprobarcomentarios";
 	}
 
 }
