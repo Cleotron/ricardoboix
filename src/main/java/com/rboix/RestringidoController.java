@@ -51,9 +51,14 @@ public class RestringidoController {
 	}
 	
 	@RequestMapping("/aprobar")
-	public String aprobar (String[] comentarios){
+	public String aprobar (String[] comentarios, String accion){
 		for(int i = 0; i < comentarios.length; i++){
-			jdbcTemplate.update("update comentarios set aprobado = true where id = ?",  comentarios[i]);
+			if(accion.equals("aprobar")){	
+				jdbcTemplate.update("update comentarios set aprobado = true where id = ?",  comentarios[i]);
+			}
+			else{
+				jdbcTemplate.update("delete from comentarios where id = ?",  comentarios[i]);
+			}
 		}
 		return "redirect:/restringido/aprobarcomentarios";
 	}
