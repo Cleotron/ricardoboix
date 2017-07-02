@@ -12,3 +12,12 @@ $ docker run --rm -p 8080:8080 -v $(pwd):/data ricardoboix \
 spring.datasource.initialize=false previene que se inicialice la
 aplicación, no especificarlo la primera vez para que se cree el esquema
 de datos inicial.
+
+Se pueden añadir variables de entorno RESTRINGIDO_USERNAME y
+RESTRINGIDO_PASSWORD para especificar un usuario y password para la zona
+restringida (en vez de u/p que hay por defecto).
+
+$ docker run ... \
+      RESTRINGIDO_USERNAME=user \
+      RESTRINGIDO_PASSWORD=pass \
+      ...
