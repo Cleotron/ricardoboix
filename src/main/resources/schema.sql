@@ -1,6 +1,7 @@
 CREATE TABLE poemas(
 	titulo varchar (100)PRIMARY KEY,
 	texto varchar(10000) NOT NULL,
+	audio varchar(1000),
 );
 
 CREATE TABLE relatos(

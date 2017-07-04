@@ -163,8 +163,9 @@ Tú te perdiste en la niebla
 Yo me quedé meditando
 ');
 
-INSERT INTO poemas(titulo, texto)
+INSERT INTO poemas(titulo, audio, texto)
 VALUES ('El primer amor',
+'330712967',
 'Estábamos separados         
 En dos mesas diferentes     
 Me fijé y noté tus manos       
@@ -298,8 +299,9 @@ Convirtiéndose en cenizas
 Quedando solo el recuerdo
 ');
 
-INSERT INTO poemas(titulo, texto)
+INSERT INTO poemas(titulo, audio, texto)
 VALUES ('La espera',
+'330712965',
 'Qué largos se hacen los días            
 Cuando te estoy esperando
 Qué cortas se hacen las noches
@@ -387,8 +389,9 @@ Ahora estás en un museo
 Ya no estás sobre las vías
 ');
 
-INSERT INTO poemas(titulo, texto)
+INSERT INTO poemas(titulo, audio, texto)
 VALUES ('Mesa de café',
+'330712962',
 'Una mesa de un café
 Frente a un diván situada
 Con su tablero de mármol
@@ -838,8 +841,10 @@ Fue el de marcharte aquel día
 Yo creo que a nuestro amor
 Lo mató la lejanía
 ');
-INSERT INTO poemas(titulo, texto)
-VALUES ('La luna y la niña','La luna vela a la niña
+INSERT INTO poemas(titulo, audio, texto)
+VALUES ('La luna y la niña',
+'330712963',
+'La luna vela a la niña
 A través de la ventana
 La niña yace en su cuna
 La luna canta la nana
@@ -994,8 +999,10 @@ por una esquina aparece el pregonero
 llega cantando en tono lastimero
 son las doce en punto y nevando.
 ');
-INSERT INTO poemas(titulo, texto)
-VALUES ('Te dije un par de piropos','Fue camino del mercado            
+INSERT INTO poemas(titulo, audio, texto)
+VALUES ('Te dije un par de piropos',
+'330712961',
+'Fue camino del mercado            
 Cuando yo te vi pasar
 Me quedé un poco pasmado      
 Por tu manera de andar

@@ -5,6 +5,11 @@
 	<body class= "bodylibro">
 		<div th:include="base :: copy"></div>
 		<h2><span th:text="${poema.titulo}"> Titulorandom </span></h2><br/><br/>
+		<div style='text-align:center'>
+		<iframe th:if= "${poema.audio}" width="50%" height="166" scrolling="no" frameborder="no" th:src="@{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{audio}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false(audio=${poema.audio})}"></iframe>
+		</div>
+		<br/>
+		<br/>
 		<p id="textopoesia"><span th:utext="${#strings.replace(#strings.escapeXml(poema.texto),'&#10;','&lt;br/&gt;')}"> Blablabla </span></p>
 		<br/>
 		<div id="button">
