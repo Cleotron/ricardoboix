@@ -1036,7 +1036,7 @@ Al final te vi marchar
 Tan hermosa y tan altiva 
 Que dije sin poder hablar                   
 ¡Vete con Dios, vida mía!
-¡Pero vuelve… vuelve ya!
+No te supe enamorar
 ');
 
 INSERT INTO poemas(titulo, texto)
