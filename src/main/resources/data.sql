@@ -1668,4 +1668,176 @@ Aquellas circunstancias cerraron definitivamente las puertas que tanto empeño t
         El perro le fue más fiel 
         Le dedicó sus caricias
         Y se olvidó del papel'); 
+	
+	INSERT INTO poemas(titulo, texto)
+	VALUES ('Carta a una desconocida',
+	    '¿Recordáis, señora mía,
+         una noche de verano?
+         Fue cuando nos conocimos         
+         En un viaje organizado
 
+         Alegría desbordada     
+         Regresaba el autocar
+         Y todos al mismo tiempo                 
+         Nos pusimos a cantar
+     
+         Me pidió la dedicase       
+         Por favor "Esclavo y amo"
+         Yo la complací gustoso
+         Y usted se sentó a mi lado
+
+		 Cuando yo empecé a cantar            
+         Noté su rostro alterado                  
+         Apareció una sonrisa             
+         Y sus ojos se entornaron
+
+         Una lágrima indiscreta                       
+         Su mejilla recorría
+         Que al humedecer su rostro    
+         Una virgen parecía       
+  
+         Supongo que fue un amor
+         Amor bien correspondido 
+         Que solamente quebró 
+         Inexorable el destino
+                 
+         Qué recuerdos la traerían 
+         En quién estaría pensando        
+         Me dedicó una sonrisa        
+         Yo continué cantando 
+
+         Me ofreció al final la mano                                                                      
+         En señal de despedida
+         "Usted me ha hecho feliz. 
+         No le olvidaré en la vida"
+
+         "Para mí ha sido un placer
+         en conocerla, señora.                                             
+         Espero volverla a ver.                              
+         Beso su mano, señora" ');
+                                             
+    INSERT INTO poemas(titulo, texto)
+	VALUES ('De bronce',  
+	     'De bronce y del Albaicín        
+         Era Carmen la gitana
+         Esposa de un bailarín
+         Que se lo llevó la parca
+
+         Allá arriba desde el cielo                                                                                                            
+         La luna se transformaba       
+         Dándola un tinte de negro
+         De luto mientras lloraba
+                                        
+         Qué hiciste de tu sonrisa             
+         La que adornaba tu cara 
+         Recogiendo las monedas
+         Que algún oyente te daba 
+                                                                    
+         Cantabas los pasodobles                                      
+         Con las músicas grabadas
+         ¿Dónde escondiste tu risa?
+         ¿Para quién se la guardabas?
+
+         Y cuando ya anochecía                               
+         Vi a Carmen que llevaba            
+         En una silla de ruedas 
+         A una mujer muy anciana
+                          
+         En su cara luna y bronce
+         Una sonrisa asomaba
+         Dedicada a la mujer
+         Que con cariño llevaba
+         
+         Que los dioses te acompañen 
+         Bendita seas, gitana
+         Que reservas tu sonrisa                                
+         Para tu querida mama');
+
+	INSERT INTO poemas(titulo, texto)
+	VALUES ('Amor fugaz',  
+		 'Era de noche y llovía
+         La vi a traves del balcón               
+         Iba empapada y buscaba          
+         Un lugar de protección
+
+         Bajé y dije si quería  
+         Sin ninguna condición       
+         Que yo la permitiría
+         Secarse en mi habitación  
+               
+         Cuando se secaba el pelo                
+         Había fuego en su mirada
+         Y en seguida comprobé                                                            
+         Que también me deseaba                       
+                                                                                                                        
+         Sus ojos eran dos brasas
+         Sus labios como un clavel
+         Que dejaron en los míos
+         Un dulce sabor a miel
+
+         Al despertar ya de día                                                   
+         Ella ya se había marchado                           
+         Leí raudo las palabras
+         Que escritas me había dejado 
+
+         Sólo me quedaba de ella
+         Su letra en aquel papel
+         Y en su lugar en la cama
+         El perfume de su piel
+
+         Salí corriendo a la calle
+         Para ver si la veía
+         No la encontré entre la gente                                                                         
+         Solo noté que aún llovía');
+
+	INSERT INTO poemas(titulo, texto)
+	VALUES ('Rosa de mayo',
+        'Era el día de las flores
+         Eras mi rosa de mayo
+         Con pétalos de rubí
+         Verde esmeralda tu tallo
+         
+         Muchas rosas florecían
+         La tuya se fue secando
+         Porque la parca maligna
+         Hoja a hoja fue arrancando
+         
+         Y este pobre jardinero
+         Que te amaba tanto y tanto
+         Se quedó solo muy solo
+         Sólo le quedó su llanto
+         
+         Siempre quedarán los restos
+         De un corazón destrozado
+         Pero te sigo queriendo
+         Aunque no estés a mi lado
+         
+         Guardo siempre en mi recuerdo
+         Tus amorosos abrazos
+         Y aún me queda un gran consuelo
+         Fuiste a morir en mis brazos');                                      
+ 
+                
+
+                
+
+        
+
+                 
+
+
+                                                       
+
+ 
+
+                 
+
+
+		
+                                                        
+     
+                                        
+
+                                         
+
+                                                                               
