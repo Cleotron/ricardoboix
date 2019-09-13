@@ -1815,19 +1815,209 @@ Aquellas circunstancias cerraron definitivamente las puertas que tanto empeño t
          Guardo siempre en mi recuerdo
          Tus amorosos abrazos
          Y aún me queda un gran consuelo
-         Fuiste a morir en mis brazos');                                      
+         Fuiste a morir en mis brazos');        
+         
+         
+	INSERT INTO poemas(titulo, texto)
+	VALUES ('Gracias',
+       'Como un gran ramo de rosas cultivadas
+		En un bello jardín por cuidadoso dueño
+		Traéis hacia mi en placentero sueño
+		Un sinfín de riquezas perfumadas
+		
+		Vuestra presencia ilumina el firmamento
+		Y allí junto a las hadas estáis con las estrellas
+		Y vosotras lluvias de oro las más bellas
+		Me transportáis al cielo en un momento
+		
+		Y es que en este atardecer digo en mi canto
+		Canto nostálgico de luces y de sombras
+		Con el transcurso trepidante de las horas
+		Gracias mis diosas por apreciarme tanto');                              
  
+    INSERT INTO poemas(titulo, texto)
+	VALUES ('Besos locos',
+	   '¿Por qué me miras así?
+		¿Es que acaso es el despecho
+		Inmersa en tu frenesí
+		Por no querer darte un beso?
+		
+		Entonces tú presumías
+		Que solo estabas besando
+		Cuando tú te divertías
+		Con varios hombres jugando
+		
+		A partir desde aquel día
+		Aún conociendo mi amor
+		No me tienes simpatía
+		Solo me guardas rencor
+		
+		Hoy tienes los labios secos
+		De tanto beso perdido
+		Qué pena que no conozcas
+	 	Cómo sabe un beso mío
+		
+		Y has de conocer, mujer
+		Que si te beso aquel día
+		Hubiera sido tu esclavo
+		Esclavo toda la vida');
                 
-
-                
-
+ 	INSERT INTO poemas(titulo, texto)
+	VALUES ('El mendigo',
+	   'Encontré en la calle un día
+		A un respetable mendigo
+		Le pregunté si quería
+		Hablar un rato conmigo
+		
+		Le pregunté qué tenía
+  		Y el me dijo "libertad"
+		Algo que la gente busca
+		Y no la suele encontrar
+		
+		Siempre con obligaciones
+		Para tal o para cual
+		Sujeto a la tiranía
+		De un patrón o familiar
+		
+		Yo no dependo de nadie
+		Solo Dios me ha de juzgar
+		Si con mi comportamiento
+		Lo hice bien o lo hice mal');
         
-
+	INSERT INTO poemas(titulo, texto)
+	VALUES ('Felicidades, Princesa',
+	   'Felicidades, Princesa
+        Nunca tuvo un Rey igual
+        A un ser tan angelical
+        Que igualara tu belleza
                  
+        Belleza muy especial
+        Belleza de cuerpo y alma
+        Un proceder sin igual
+        Que nos trae por fin la calma
 
+        Te encontramos siempre aquí
+        Cuidándonos con esmero
+        Sigue siempre,siempre así
+        Hasta vernos en el cielo');
 
+	INSERT INTO poemas(titulo, texto)
+	VALUES ('La fuente',
+	   'He regresado a la fuente
+		Vi el caño deteriorado
+		Ya no parece la misma
+		De tanto como ha cambiado
+
+		Y es que vivo de recuerdos
+		De viejos tiempos pasados
+		De cuando íbamos juntos
+		De la mano o abrazados
+
+		Cuando al borde del camino
+		Vimos la fuente manando
+		En lo que dura un suspiro
+		La fabricamos un caño
+
+		¡Ay, cuántas veces bebimos
+		Tú en la fuente, yo en tus labios!
+		Hoy la encuentro abandonada
+		Toda cubierta de cardos
+
+		Y es que al verla tan distinta
+		De cómo estaba hace un año
+		Verla cubierta de broza
+		Me da pena, me hace daño');
+
+    INSERT INTO poemas(titulo, texto)
+	VALUES ('La tormenta',
+	   'Hay una nube muy negra
+  		Que el viento nos va trayendo
+		Está cada vez más cerca
+		Encima ya la tenemos
+		
+		Un rayo rasga la nube
+		Ha estallado la tormenta
+		El agua cae a raudales
+		La calle queda desierta
+		
+		Solamente en los faroles
+		Aguantando el aguacero
+		Brillan sus pequeñas luces
+		Bajo sus cascos de acero
+		
+		Van cayendo desde el cielo
+		Gotas en forma de perla
+		Que llegando éstas al suelo
+		Se derriten en la tierra
+		
+		Un trueno muy lejos suena
+		Ya ha pasado la tormenta
+		Dejándonos un aroma
+		A tierra mojada y menta');         
+
+	INSERT INTO poemas(titulo, texto)
+	VALUES ('La zagala',
+	   'Hoy el pueblo está de luto
+		Porque ha muerto la zagala
+		Y ya no se oirá su canto
+		Al tiempo que pastoreaba
+		
+		También lo nota Preciosa
+		La jefa de la manada
+		Que ha pasado todo el día
+		Bala que bala que bala
+		
+		Qué sola queda Preciosa
+		Sin su querida zagala
+		De lo alto de la iglesia
+		Hay repiques de campanas
+		
+		Todo el pueblo está de luto
+		Porque ha muerto la zagala');
+		
+	INSERT INTO poemas(titulo, texto)
+	VALUES ('Sueños',
+	   'Los sueños son como nubes
+		Que nublan el firmamento
+		Sueños que desaparecen	
+		Una vez que estás despierto
+		
+		Sueños que cuentan amores
+		Amores que tú has soñado
+		Sueñas que no tienes penas
+		Y al despertar has llorado
+
+		Sueñas que la quieres mucho
+		Que la tienes a tu lado
+		Pero cuando te despiertas
+		Sabes que ya te ha dejado
+
+		Sueños que nunca recuerdas
+		Algo de lo que has soñado
+		Pero hay un sueño al final
+		Nos moriremos soñando');
                                                        
+	INSERT INTO poemas(titulo, texto)
+	VALUES ('Una diosa',
+	   'Yo llegué a conocer
+		A una niña revoltosa
+		Que quería llegar a ser
+		Una mujer muy hermosa
+			
+		Aquella niña creció
+		Su cara era una rosa
+		Pero siempre deseó
+		Que pudiera ser dichosa
 
+		Ya convertida en mujer
+		Olvidó el tiempo pasado
+		Y ella se dejó querer
+		Por un hombre enamorado
+
+		Pasado ya cierto tiempo
+		Tuvo una niña preciosa
+		Y entonces dejó de ser
+		Mujer para hacerse Diosa');
  
 
                  
