@@ -29,13 +29,11 @@
 					</div>
 				</div>
 				<div class="col-md-8">
-					<p th:each="poema : ${poemas}">
-						<div style="text-align: center">
-							<a href="poesias.html" th:href = "@{/poesias/{titulo}(titulo=${poema.titulo})}">
-								<span th:text="${poema.titulo}">El titulo va aqui</span>
-								<span th:if="${poema.audio}">(audio)</span>
-							</a>
-						</div>
+					<p th:each="poema : ${poemas}" style="text-align: center">
+						<a href="poesias.html" th:href = "@{/poesias/{titulo}(titulo=${poema.titulo})}">
+							<span th:text="${poema.titulo}">El titulo va aqui</span>
+							<span th:if="${poema.audio}">(audio)</span>
+						</a>
 					</p>
 				</div>
 				<div class="col-md-2">

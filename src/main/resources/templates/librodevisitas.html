@@ -46,11 +46,9 @@
 		<p style="text-align: center"> ----------------------------------------------------- </p>
 		<br/>
 		<br/>
-		<p th:each="comentario : ${comentarios}">
-			<div id="comentarios">
-				<p style="font-style: italic" th:text= "${comentario.nombre}"></p>
-				<p th:text= "${comentario.texto}"></p><br/>
-			</div>
+		<p th:each="comentario : ${comentarios}" class="comentarios">
+			<span style="font-style: italic" th:text= "${comentario.nombre}"></span>
+			<span th:text= "${comentario.texto}"></span>
 		</p>
 	</body>
 </html>

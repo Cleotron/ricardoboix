@@ -14,40 +14,6 @@ public class RicardoboixApplication {
 	@Autowired
 	protected JdbcTemplate jdbcTemplate;
 
-	@Bean
-	public HomeController homeController() {
-		return new HomeController();
-	}
-
-	@Bean
-	public PoesiaController poesiaController() {
-		return new PoesiaController(jdbcTemplate);
-	}
-	
-	@Bean
-	public GaleriaController galeriaController(){
-		return new GaleriaController(jdbcTemplate);
-	}
-
-	@Bean
-	public RelatosController relatosController(){
-		return new RelatosController(jdbcTemplate);
-	}
-	
-	@Bean 
-	public LibrodevisitasController librodevisitasController(){
-		return new LibrodevisitasController(jdbcTemplate);
-	}
-	
-	@Bean 
-	public RestringidoController restringidoController(){
-		return new RestringidoController(jdbcTemplate);
-	}
-	@Bean
-	public LoginController loginController(){
-		return new LoginController();
-	}
-		
 	public static void main(String[] args) {
 		SpringApplication.run(RicardoboixApplication.class, args);
 	}
